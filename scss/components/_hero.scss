@@ -1,0 +1,21 @@
+.hero {
+    width: calc(var(--index) * 36);
+    position: absolute;
+    left: 37vw;
+    top: 10vh;
+    z-index: -1;
+}
+
+.main-header {
+    height: 100vh;
+}
+
+.main-title {
+    position: absolute;
+    bottom: 12vh;
+    width: min-content;
+
+    font-size: calc(var(--index) * 8);
+    text-transform: lowercase;
+    line-height: 0.9;
+}
